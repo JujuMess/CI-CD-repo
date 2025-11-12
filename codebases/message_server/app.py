@@ -54,7 +54,7 @@ def get_messages():
 
     # Run some SQL
     cursor = connection.cursor()
-    cursor.execute("SELECT * FROM messages;")
+    cursor.execucute("SELECT * FROM messages;")
 
     # Get the results
     rows = cursor.fetchall()
