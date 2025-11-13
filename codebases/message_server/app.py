@@ -77,7 +77,7 @@ def generate_form():
     return """
     <form action="/" method="POST">
         <input type="text" name="message">
-        <input type="submit" value="Send">
+        <input type="submit your message" value="Send">
     </form>
     """
 
